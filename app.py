@@ -41,7 +41,7 @@ with app.app_context():
 model = pickle.load(open('blink_detection_parameters.pkl', 'rb'))
 
 # blink detection settings
-BLINK_RATIO_THRESHOLD = 5.7
+BLINK_RATIO_THRESHOLD = 4
 
 
 def midpoint(point1, point2):
